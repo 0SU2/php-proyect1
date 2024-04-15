@@ -29,17 +29,17 @@
     public function setId($id) {
       $this->id = $id;
     }
-
-    public function getApaterno() {
-      return $this->apaterno;
-    }
-
+ 
     public function getNombre() {
       return $this->nombre;
     }
 
     public function setNombre($nombre) {
       $this->nombre = $nombre;
+    }
+ 
+    public function getApaterno() {
+      return $this->apaterno;
     }
 
     public function setApaterno($apaterno) {
