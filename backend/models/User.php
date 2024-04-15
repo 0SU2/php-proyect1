@@ -1,5 +1,5 @@
 <?php
-  class User  {
+  class User {
     private $id;
     private $nombre;
     private $apaterno;
@@ -11,7 +11,7 @@
     private $password;
   
     // creacion del constructo de la clase
-    public funcion __construct ($nombre, $apaterno, $amaterno, $direccion, $telefono, $correo, $usuario, $password) {
+    public function __contruct($nombre, $apaterno, $amaterno, $direccion, $telefono, $correo, $usuario, $password) {
       $this->nombre = $nombre;
       $this->apaterno = $apaterno;    
       $this->amaterno = $amaterno;
@@ -85,5 +85,4 @@
     public function setPassword($password) {
       $this-$password = $password;
     }
-}
-?>
+  }
